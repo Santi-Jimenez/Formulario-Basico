@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="caja">
+        <h1 class="caja_text">Registrate</h1>
+        <form class="form">
+            <div class="cuenta">
+                <input type="radio" value="none" id="radioOne" name="account">
+                <label for="radioOne" class="radio">Personal</label>
+
+                <input type="radio" value="none" id="radioTwo" name="account">
+                <label for="radioTwo" class="radio">Empresa</label>
+            </div>
+            <label for="Email"></label>
+            <input type="email" id="Email" placeholder="E-mail">
+
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Nombre">
+
+            <label for="contra"></label>
+            <input type="password" id="contra" placeholder="Contraseña">
+
+            <div class="genero">
+                <input type="radio" value="none" id="radioOne" name="gender">
+                <label for="radioOne" class="radio">Masculino</label>
+    
+                <input type="radio" value="none" id="radioTwo" name="gender">
+                <label for="radioTwo" class="radio">Femenino</label>
+            </div>
+            <p>Al hacer clic en Registrarse aceptas nuestros <a href="#">Terminos y Condiciones</a></p>
+            <input class="boton" type="submit" value="Registrarse">
+        </form>
+    </div>
+</body>
+</html>
